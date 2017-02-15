@@ -1,0 +1,130 @@
+/*
+	Authors: AnnYorke and AlexYorke;
+	Gmails: <durt2701@gmail.com> | <avramenko2000@bk.ru> | <yorkbc2@gmail.com>;
+	Name: DoubleX Library;
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.wrap {
+	margin: 0 10%;
+	padding: 20px 0;
+	position: relative;
+	display: block;
+}
+
+/* BUTTONS LIST */
+
+button {
+	border: 1px solid transparent;
+	position: relative;
+	display: inline-block;
+	margin: 2px 5px;
+	background-color: white;
+	padding: 10px 15px;
+	color: black;
+	font-size: 1.2em;
+	border-radius: 10px;
+	box-shadow: 3px 3px 4px #000; 
+	z-index: 3;
+	outline: none;
+	cursor: pointer; 
+	border: 0.5px solid #e7e7e7;
+}
+/* --------------------------- */
+button:active {
+	-webkit-box-shadow: 2px 2px 2px #000;
+	box-shadow: 2px 2px 2px #000;
+}
+
+/* BUTTONS COLORS */
+
+button.cyan,
+button.red,
+button.boloto,
+button.blue,
+button.green,
+button.sea,
+button.yellow,
+button.pink,
+button.malina,
+button.shit, 
+button.orange{
+	border-color: transparent;
+	color: white;
+}
+
+button.cyan {
+	background-color: #33D2BC;
+}
+
+button.red {
+	background-color: rgba(243,91,91,1);
+}
+button.boloto {
+	background-color: #403C3C;
+}
+
+button.blue {
+	background-color: #4d79ff;
+}
+button.green {
+	background-color: #009933;
+}
+button.sea {
+	background-color: #99ccff;
+	color: #333333;
+}
+
+button.yellow {
+	background-color: #ffff99;
+	color: black;
+}
+
+button.pink {
+	background-color: #ff80bf;
+}
+
+button.fluid {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+button.malina {
+	background-color: #ff0055;
+}
+
+button.shit {
+	background-color: #802b00;
+}
+button.orange {
+	background-color: #ff8000;
+}
+
+
+
+/*---------------------------*/
+
+.row {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.row button{
+	float: left;
+	width: calc(50% - 10px);
+}
+
+.wrap.no-radius button{
+	border-radius: 0;
+}
+
+.no-shadows button {
+	box-shadow: none;
+}
